@@ -31,17 +31,18 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 72px;
+    height: 80px;
     padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #ffffff;
+    background: #fff;
   }
   
   nav a {
     color: inherit;
     cursor: pointer;
+    text-decoration: none;
   }
   
   nav a.active {
