@@ -50,15 +50,18 @@ function Nav() {
     <>
           <nav>
         <img className='img-thumbnail header-img' src={navimg}/>
-        <ul>
+        <ul className='nav-bar-ul'>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/contact">Services</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Work</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

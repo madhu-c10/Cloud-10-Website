@@ -1,5 +1,11 @@
+*{
+    font-family: Urbanist, sans-serif !important;
+}
 .header-img{
     height: 55px;
     width: 80px;
     border: none !important;
+}
+.nav-bar-ul{
+    margin-bottom: 0 !important;
 }
